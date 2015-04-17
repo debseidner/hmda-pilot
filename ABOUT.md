@@ -1,6 +1,6 @@
 # About
 
-The HMDA Pilot is a work in progress by the [Consumer Financial Protection Bureau](http://consumerfinance.gov/) to provide a new way to validate HMDA data. The application makes it easier to review and verify validation edits.
+The HMDA Pilot is a work in progress by the [Consumer Financial Protection Bureau](http://consumerfinance.gov/).This site is part of the Consumer Financial Protection Bureau’s (CFPB) work to improve the Home Mortgage Disclosure Act (HMDA) electronic reporting process for financial institutions.  This site does not in any way alter or substitute for your obligations for submitting data under HMDA.  See ffiec.gov/hmda for more details about your legal obligations. This application makes it easier to review and validate HMDA file submission edits.
 
 ## Validate a HMDA Dataset
 
