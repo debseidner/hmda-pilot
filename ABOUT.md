@@ -1,24 +1,20 @@
 # About
 
-The HMDA Pilot is a work in progress by the [Consumer Financial Protection Bureau](http://consumerfinance.gov/).This site is part of the Consumer Financial Protection Bureau’s (CFPB) work to improve the Home Mortgage Disclosure Act (HMDA) electronic reporting process for financial institutions.  This site does not in any way alter or substitute for your obligations for submitting data under HMDA.  See ffiec.gov/hmda for more details about your legal obligations. This application makes it easier to review and validate HMDA file submission edits.
+The HMDA Pilot is a work in progress by the [Consumer Financial Protection Bureau](http://consumerfinance.gov/).This site is part of the Consumer Financial Protection Bureau’s (CFPB) work to improve the Home Mortgage Disclosure Act (HMDA) electronic reporting process for financial institutions.  This site does not in any way alter or substitute for your obligations for submitting data under HMDA.  See ffiec.gov/hmda for more details about your legal obligations. 
 
-The file validation process has five steps. The validation edits must be performed in the order shown below and in each step of the validation edit process, the errors must be fixed or verified before moving on to the next step. At the end of the process, the user will be provided with a summary of the validated file. HMDA files are considered "clean" and ready to submit when there are no syntactical and validity edit errors for a file and that all quality, macro, MSA and IRS edit errors or reports have been verified.
+This HMDA Pilot application makes it easier to review and validate HMDA file submission edits. Institutions can check their HMDA submission files or individual LAR records to determine if there are any syntactical, validity, quality or macro quality edit failures. The site gives institutions the ability to fix these edit errors prior to submission. 
 
-    * Syntactical & Validity Edits
-    * Quality & Macro Edits
-    * MSA and IRS Reports
+The validation edits must be performed in the order in the application. During each step of the validation edit process, the errors must be fixed or verified before moving on to the next step. At the end of the process, the user will be provided with a summary of the validated file. HMDA files are considered "clean" and ready to submit when there are no syntactical and validity edit errors and all quality, macro, MSA and IRS edit errors or reports have been verified.
 
 ## Validate a HMDA Dataset
 
 1. **Select File and Validate**
 
-    On the Select File and Validate page (Step 1), select a properly formatted .DAT file and filing year, then click the Start Validation button. When the validation starts, the system will run the syntactical and validity edits on your file but the file will not be uploaded or transmitted to the CFPB. The edits will process on your computer and the file will remain on your computer. You should see a progress bar of how long running the edits should take.
-    
-    The file spec for the .DAT file can be found on the FFIEC website - [File Specifications](http://www.ffiec.gov/hmda/fileformats.htm). The edit file spec that is used for the validation can be found on the FFIEC website too - [Edit Specifications](http://www.ffiec.gov/hmda/edits.htm).
+    On the Select File and Validate page (Step 1), an institution selects a [properly formatted .DAT file](http://www.ffiec.gov/hmda/fileformats.htm) and filing year to the start the validation of the file. The system will run the [validation edits](http://www.ffiec.gov/hmda/edits.htm) on the file but the file itself will not be uploaded or transmitted to the CFPB. The edits will run in your browser on your computer, and the file will remain on your computer. Once you presss submit, you should see a progress bar of how long running the edits should take.
 
 2. **Syntactical and Validity Edit Reports**
 
-    The first edits run on the file the user has uploaded to check are the syntactical and validity edits. These edit errors contain full file submission errors like there are no LARs on the file or the respondent ID/agency code combination is invalid or data reported incorrectly like a non-valid value being used or an incorrect MSA/MD. The user can review the edit errors on the pilot site or the errors can be downloaded as a CSV. Users have the option to drill down by edit number on the site to see all the LARs that failed that specific edit. All errors must be fixed in the system of record and a new .DAT file must be created to reload and recheck in the pilot system before moving forward with the edit processing. Once there are no remaining syntactical and validity edits for the .DAT file, the "Next" button will appear in the bottom right to proceed to the next step of the validation process.
+    The tool runs the syntactical and validity edits first. These edit errors contain full file format or submission data errors. The syntactical and validity edits have to be fixed prior to moving onto the next step. The errors can be downloaded as a CSV or viewed online to be fixed in the Financial Institution's system of record. A new file will need to be selected in Step 1 and this step re-run if changes need to be made to the file format or the data due to syntactical and validity edit errors.
 
 3. **Quality and Macro Edit Reports**
 
